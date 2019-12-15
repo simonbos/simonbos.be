@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>Simon Bos | Homepage</title>
+
+    <meta name="author" content="Simon Bos">
+    <meta name="description" content="Homepage of Simon Bos">
+    <meta name="keywords" content="Simon,Bos,Homepage">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+
+    <style>
+        /* Styles based on
+           - https://www.debacker.me/
+           - https://bootstrapthemes.co/item/n5-minimal-resume-template/
+         */
+        body, html {
+        	height: 100%;
+        	width: 100%;
+        }
+        body {
+        	position: relative;
+        	overflow: hidden;
+        	font-family: 'Roboto', serif;
+            background-color: #F0F8FF;
+        }
+        h1, h2, h3, h4, h5, h6 {
+        	font-family: 'Raleway', sans-serif;
+        }
+        main {
+            display: flex;
+            align-items: center;
+	        position: fixed;
+	        top: 35px;
+	        left: 35px;
+	        right: 35px;
+	        bottom: 35px;
+	        z-index: 99;
+	        overflow: hidden;
+	        box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+            background-color: #4682B4;
+        }
+        .intro {
+            text-align: left;
+            padding: 0 16.66%;
+            width: 100%;
+        }
+        .intro > h1 {
+            margin: 0;
+            color: #FFF;
+            font-weight: 100;
+            letter-spacing: 6px;
+            font-size: 85px;
+            position: relative;
+            left: -8px;
+        }
+        .intro > p {
+            font-size: 12px;
+            color: #FFF;
+            color: rgba(255,255,255,.8);
+            margin-top: 25px;
+            margin-bottom: 0;
+            font-weight: 300;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+        .intro > .buttons {
+            margin-top: 25px;
+        }
+        .intro > .buttons > .btn {
+	        margin-right: 15px;
+        }
+        .btn {
+            color: #FFF;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 400;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            line-height: 1em;
+            padding: 15px 30px;
+            position: relative;
+            z-index: 5;
+            background: transparent;
+            border: solid 1px rgba(255,255,255,.4);
+            border-radius: 50px;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+        .btn:hover {
+            color: #202020;
+            background: #FFF;
+            border-color: #FFF;
+        }
+        @media(max-width:992px) {
+            .intro-text > h1 {
+            	font-size: 82px;
+            }
+        }
+        @media(max-width:768px) {
+            main {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            .intro > .buttons > .btn {
+                margin-bottom: 10px;
+            }
+        }
+        @media(max-width:550px) {
+            .intro > h1 {
+                font-size: 67px;
+            }
+            .intro {
+                padding: 0px;
+                margin: 0 16px;  	
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="intro">
+            <h1>Simon Bos</h1>
+            <p>Engineering - Computer Science - Artificial Intelligence </p>
+            <div class="buttons">
+                <a class="btn" target="_blank" href="/cv.pdf">Resume</a>
+                <a class="btn" target="_blank" href="https://www.linkedin.com/in/simonbos9/" rel="noopener noreferrer">Linked-In</a>
+                <a class="btn" target="_blank" href="https://github.com/simonbos" ref="noopener noreferrer">Github</a>
+                <a class="btn" target="_blank" href="/crypto.txt">PGP Key</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
