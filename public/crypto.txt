@@ -5,7 +5,7 @@
 
 ## pgp public key ##
 
-https://simonbos.me/publickey.asc
+https://simonbos.be/publickey.asc
 
 or
 
